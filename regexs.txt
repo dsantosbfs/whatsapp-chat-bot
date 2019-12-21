@@ -1,0 +1,4 @@
+tira quebra de linha no meio do texto
+([a-z])\n([a-z])
+apaga linhas vazias
+^\n
