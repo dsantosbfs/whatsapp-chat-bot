@@ -35,7 +35,7 @@ treina(dir_path + '/treinos')
 lastMessage = ''
 
 options = webdriver.ChromeOptions()
-options.add_argument(r"user-data-dir="+dir_path+"\profile\wpp")
+options.add_argument(r"user-data-dir="+dir_path+"/profile/wpp")
 
 #app start
 driver = webdriver.Chrome(dir_path + '/chromedriver', chrome_options=options)
